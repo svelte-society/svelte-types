@@ -56,7 +56,7 @@
 		<p>Ever wondered how to type props, slots, events, etc. in your projects? Here's how 👇</p>
 		<div class="mt-6 bg-black rounded-md w-1/2 py-8">Sponsor</div>
 	</div>
-	<div class="grid gap-5 lg:grid-cols-2 max-w-screen-2xl">
+	<div class="grid gap-5 grid-flow-dense lg:grid-cols-2 max-w-screen-2xl">
 		{#each data.cards as card}
 			<Card {...card} />
 		{/each}
