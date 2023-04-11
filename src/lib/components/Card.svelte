@@ -14,9 +14,13 @@
 	}
 </script>
 
-<div class="rounded-md drop-shadow-lg grid gap-2 p-5 dark:bg-gray-700 bg-gray-300">
+<div
+	class="rounded-md drop-shadow-lg grid gap-2 p-5 dark:bg-gray-700 bg-gray-300 grid-rows-[auto_1fr]"
+>
 	<div class="flex flex-row place-content-between">
-		<h2 id={title} class="text-xl font-bold pt-1"><a href="/#{title}">{title}</a></h2>
+		<h2 id={title} class="text-xl font-bold pt-1 hover:underline underline-offset-2">
+			<a href="/#{title}"># {title}</a>
+		</h2>
 		<button on:click={copyCode} class=""
 			><svg
 				class="fill-white hover:fill-pink-600 transition-colors w-6 h-6"
