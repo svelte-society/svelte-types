@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let title: string;
 	export let code: string;
-	export let order: string;
 
 	let codeElement: HTMLElement;
 
