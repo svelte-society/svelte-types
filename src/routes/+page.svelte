@@ -4,6 +4,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Svelte and SvelteKit TypeScript Cheatsheet</title>
+</svelte:head>
+
 <header class="min-h-24 shadow-lg w-full">
 	<div class="flex place-content-between place-items-center w-full max-w-5xl mx-auto">
 		<h1 class="text-2xl font-extrabold text-center p-5">
