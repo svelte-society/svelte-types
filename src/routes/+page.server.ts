@@ -17,10 +17,7 @@ export const load = (async () => {
 
     // Extract title and order from path
     const paths = Object.keys(files)
-    console.log(paths)
     const pathsAndCode = paths.map((path, i) => ({...extractTitleAndOrder(path), code: shikifiedStrings[i]}))
-
-    console.log(pathsAndCode)
 
     return {
         cards: pathsAndCode
